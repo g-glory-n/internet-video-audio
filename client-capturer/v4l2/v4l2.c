@@ -122,7 +122,8 @@ void v4l2_init(void)
 /*
  * =================================================================================================
  * check whether a type frame format is supported
- * =================================================================================================*/
+ * =================================================================================================
+*/
         printf("\ncheck whether a type frame format is supported:\n");
         printf("\tchecking RGB32:\n");
         struct v4l2_format v4l2_format__one_type_format_whether_support_or_not;
