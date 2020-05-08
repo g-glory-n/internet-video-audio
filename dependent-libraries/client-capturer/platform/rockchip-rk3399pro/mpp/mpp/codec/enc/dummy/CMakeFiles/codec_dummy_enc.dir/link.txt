@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcodec_dummy_enc.a  CMakeFiles/codec_dummy_enc.dir/dummy_enc_api.c.o
+/usr/bin/ranlib libcodec_dummy_enc.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcodec_dummy_dec.a  CMakeFiles/codec_dummy_dec.dir/dummy_dec_api.c.o
+/usr/bin/ranlib libcodec_dummy_dec.a

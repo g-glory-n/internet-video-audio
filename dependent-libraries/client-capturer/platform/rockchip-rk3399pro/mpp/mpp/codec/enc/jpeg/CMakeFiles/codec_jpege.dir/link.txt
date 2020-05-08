@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcodec_jpege.a  CMakeFiles/codec_jpege.dir/jpege_api.c.o
+/usr/bin/ranlib libcodec_jpege.a

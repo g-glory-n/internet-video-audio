@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcodec_avsd.a  CMakeFiles/codec_avsd.dir/avsd_api.c.o CMakeFiles/codec_avsd.dir/avsd_parse.c.o
+/usr/bin/ranlib libcodec_avsd.a

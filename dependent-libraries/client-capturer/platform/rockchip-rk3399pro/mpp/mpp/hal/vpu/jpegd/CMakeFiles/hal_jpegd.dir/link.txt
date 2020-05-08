@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhal_jpegd.a  CMakeFiles/hal_jpegd.dir/hal_jpegd_api.c.o CMakeFiles/hal_jpegd.dir/hal_jpegd_common.c.o CMakeFiles/hal_jpegd.dir/hal_jpegd_vdpu2.c.o CMakeFiles/hal_jpegd.dir/hal_jpegd_vdpu1.c.o
+/usr/bin/ranlib libhal_jpegd.a

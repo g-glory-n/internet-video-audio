@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcodec_vp8d.a  CMakeFiles/codec_vp8d.dir/vp8d_api.c.o CMakeFiles/codec_vp8d.dir/vp8d_parser.c.o
+/usr/bin/ranlib libcodec_vp8d.a

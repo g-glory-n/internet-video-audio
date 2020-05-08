@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhal_h265e.a  CMakeFiles/hal_h265e.dir/hal_h265e_api.c.o CMakeFiles/hal_h265e.dir/hal_h265e_vepu22.c.o
+/usr/bin/ranlib libhal_h265e.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhal_mpeg2d.a  CMakeFiles/hal_mpeg2d.dir/hal_m2vd_api.c.o CMakeFiles/hal_mpeg2d.dir/hal_m2vd_vdpu1.c.o CMakeFiles/hal_mpeg2d.dir/hal_m2vd_vdpu2.c.o
+/usr/bin/ranlib libhal_mpeg2d.a

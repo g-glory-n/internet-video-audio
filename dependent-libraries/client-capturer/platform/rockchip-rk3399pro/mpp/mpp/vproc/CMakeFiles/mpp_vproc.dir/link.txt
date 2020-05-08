@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmpp_vproc.a  CMakeFiles/mpp_vproc.dir/mpp_dec_vproc.cpp.o
+/usr/bin/ranlib libmpp_vproc.a

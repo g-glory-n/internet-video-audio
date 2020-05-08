@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhal_h263d.a  CMakeFiles/hal_h263d.dir/hal_h263d_api.c.o CMakeFiles/hal_h263d.dir/hal_h263d_vdpu1.c.o CMakeFiles/hal_h263d.dir/hal_h263d_vdpu2.c.o
+/usr/bin/ranlib libhal_h263d.a

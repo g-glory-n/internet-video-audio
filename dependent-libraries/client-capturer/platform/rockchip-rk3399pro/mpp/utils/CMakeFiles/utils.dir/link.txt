@@ -1,0 +1,2 @@
+/usr/bin/ar qc libutils.a  CMakeFiles/utils.dir/utils.c.o CMakeFiles/utils.dir/iniparser.c.o CMakeFiles/utils.dir/dictionary.c.o
+/usr/bin/ranlib libutils.a

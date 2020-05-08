@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhal_h265d.a  CMakeFiles/hal_h265d.dir/hal_h265d_reg.c.o
+/usr/bin/ranlib libhal_h265d.a

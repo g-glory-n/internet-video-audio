@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhal_dummy.a  CMakeFiles/hal_dummy.dir/hal_dummy_dec_api.c.o CMakeFiles/hal_dummy.dir/hal_dummy_enc_api.c.o
+/usr/bin/ranlib libhal_dummy.a

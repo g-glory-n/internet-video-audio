@@ -1,0 +1,255 @@
+#!/bin/bash
+
+# internet-video-audio working directory
+WORKING_PATH=~/Desktop/projects/internet-video-audio/
+
+
+
+
+
+get_root()
+{
+    for ((i = 0; i < 5; i++)); do
+	PASSWD=$(whiptail --title "OrangePi Build System" \
+		--passwordbox "Enter your root password. Note! Don't use root to run this scripts" \
+		10 60 3>&1 1>&2 2>&3)
+	
+	if [ $i = "4" ]; then
+		whiptail --title "Note Box" --msgbox "Error, Invalid password" 10 40 0	
+		exit 0
+	fi
+
+	sudo -k
+	if sudo -lS &> /dev/null << EOF
+$PASSWD
+EOF
+	then
+		i=10
+	else
+		whiptail --title "OrangePi Build System" --msgbox "Invalid password, Pls input corrent password" \
+			10 40 0	--cancel-button Exit --ok-button Retry
+	fi
+done
+
+echo $PASSWD | sudo ls &> /dev/null 2>&1
+
+}
+
+
+function test_xdotool()
+{
+    if [ ! -e /bin/xdotool ] && [ ! -e /usr/bin/xdotool ] && [ ! -e /usr/local/bin/xdotool ]
+    then
+        get_root
+        sudo apt install xdotool -y
+    fi
+}
+
+function undeploy()
+{
+    test_xdotool
+
+
+    for loop in 1 2 3 4 5 6 7 8 9 0
+    do
+        xdotool keydown Alt
+        xdotool keydown ${loop}
+        xdotool keyup ${loop}
+        xdotool keyup Alt
+
+        xdotool key Escape
+        xdotool type ":wq"
+        xdotool key Return
+
+        xdotool key Escape
+        xdotool type ":wq"
+        xdotool key Return
+
+        xdotool key Escape
+        xdotool type ":wq"
+        xdotool key Return
+
+        xdotool type "clear"
+        xdotool key Return
+
+        xdotool type "clear"
+        xdotool key Return
+
+#        if [ [ ${loop} == 1 ] || [ ${loop} == 2 ] || [ ${loop} == 3 ] || [ ${loop} == 4 ] || [ ${loop} == 5 ] || [ ${loop} == 6 ] ]
+#        then
+#        xdotool key Escape
+#        xdotool type ":wq"
+#        xdotool key Return
+#
+#        xdotool key Escape
+#        xdotool type ":wq"
+#        xdotool key Return
+#
+#        xdotool key Escape
+#        xdotool type ":wq"
+#        xdotool key Return
+#
+#        xdotool type "clear"
+#        xdotool key Return
+#        fi
+    done
+}
+
+deploy()
+{
+    test_xdotool
+
+
+#    if [ ls ./ | grep *deploy-development-environment* == "deploy-development-environment" ]
+#    then
+#        cd ${WORKING_PATH}
+#    else
+#        exit
+#    fi
+
+
+    # make the terminal maxsize
+    xdotool keydown Super
+    xdotool keydown Up
+    xdotool keyup Up
+    xdotool keyup Super
+
+
+#    xdotool type "gnome-terminal --tab --working-directory=${WORKING_PATH}/server-transfer/"
+#    xdotool key Return
+#
+#    xdotool type "gnome-terminal --tab --working-directory=${WORKING_PATH}/client-accepter/"
+#    xdotool key Return
+#
+#    xdotool type "gnome-terminal --tab --working-directory=${WORKING_PATH}/client-capturer/"
+#    xdotool key Return
+#
+#    xdotool type "gnome-terminal --tab --working-directory=${WORKING_PATH}/server-transfer/"
+#    xdotool key Return
+#
+#    xdotool type "gnome-terminal --tab --working-directory=${WORKING_PATH}/client-accepter/"
+#    xdotool key Return
+#
+#    xdotool type "gnome-terminal --tab --working-directory=${WORKING_PATH}"
+#    xdotool key Return
+#
+#    xdotool type "gnome-terminal --tab --working-directory=${WORKING_PATH}/output/client-capturer/"
+#    xdotool key Return
+#
+#    xdotool type "gnome-terminal --tab --working-directory=${WORKING_PATH}/output/server-transfer/"
+#    xdotool key Return
+#    
+#    xdotool type "gnome-terminal --tab --working-directory=${WORKING_PATH}/output/client-accepter/"
+#    xdotool key Return
+#    
+#    xdotool type "cd ./client-capturer/"
+#    xdotool key Return
+
+
+
+
+
+
+    # client-capturer
+    xdotool type "cd ./client-capturer/"        #edit client-capturer
+    xdotool key Return
+    
+    # server-transfer
+    cd ./server-transfer/                       #edit server-transfer
+    gnome-terminal --tab
+    
+    # client-accepter
+    cd ../client-accepter/                      #edit client-accepter
+    gnome-terminal --tab
+    
+    # compile
+    cd ../client-capturer/                      #make client-capturer
+    gnome-terminal --tab
+    cd ../server-transfer/                      #make server-transfer
+    gnome-terminal --tab
+    cd ../client-accepter/                      #make client-accepter
+    gnome-terminal --tab
+    cd ../                                      #make all
+    gnome-terminal --tab
+    
+    # run
+    cd ./output/client-capturer/
+    gnome-terminal --tab
+    cd ../../output/server-transfer/
+    gnome-terminal --tab
+    cd ../../output/client-accepter/
+    gnome-terminal --tab
+ 
+    # source
+    cd ../../client-capturer/
+
+    xdotool type "clear"
+    xdotool key Return
+    
+    
+
+    xdotool keydown Alt
+    xdotool keydown 1
+    xdotool keyup 1
+    xdotool keyup Alt
+    xdotool type "vim ./common/main.c"
+    xdotool key Return
+    
+    xdotool keydown Alt
+    xdotool keydown 2
+    xdotool keyup 2
+    xdotool keyup Alt
+    xdotool type "vim ./common/main.c"
+    xdotool key Return
+    
+    xdotool keydown Alt
+    xdotool keydown 3
+    xdotool keyup 3
+    xdotool keyup Alt
+    xdotool type "vim ./common/main.c"
+    xdotool key Return
+    
+    
+    xdotool keydown Alt
+    xdotool keydown 4
+    xdotool keyup 4
+    xdotool keyup Alt
+    xdotool type "vim ./Makefile"
+    xdotool key Return
+    
+    xdotool keydown Alt
+    xdotool keydown 5
+    xdotool keyup 5
+    xdotool keyup Alt
+    xdotool type "vim ./Makefile"
+    xdotool key Return
+    
+    xdotool keydown Alt
+    xdotool keydown 6
+    xdotool keyup 6
+    xdotool keyup Alt
+    xdotool type "vim ./Makefile"
+    xdotool key Return
+    
+    xdotool keydown Alt
+    xdotool keydown 1
+    xdotool keyup 1
+    xdotool keyup Alt
+}
+
+
+if [[ ${1} == "deploy" ]]
+then
+    deploy
+elif [[ ${1} == "undeploy" ]]
+then
+    undeploy
+else
+    echo -e "\n\tError!\n"
+fi
+
+
+
+
+
+

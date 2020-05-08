@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmpp_rc.a  CMakeFiles/mpp_rc.dir/mpp_rc.cpp.o
+/usr/bin/ranlib libmpp_rc.a

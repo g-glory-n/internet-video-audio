@@ -1,0 +1,2 @@
+/usr/bin/ar qc librockchip_mpp_static.a  CMakeFiles/rockchip_mpp_static.dir/mpp_info.cpp.o CMakeFiles/rockchip_mpp_static.dir/mpp.cpp.o CMakeFiles/rockchip_mpp_static.dir/mpp_impl.cpp.o CMakeFiles/rockchip_mpp_static.dir/mpi.cpp.o
+/usr/bin/ranlib librockchip_mpp_static.a

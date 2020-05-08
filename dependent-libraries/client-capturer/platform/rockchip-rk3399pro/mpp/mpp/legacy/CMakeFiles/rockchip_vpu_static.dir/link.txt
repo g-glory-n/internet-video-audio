@@ -1,0 +1,2 @@
+/usr/bin/ar qc librockchip_vpu_static.a  CMakeFiles/rockchip_vpu_static.dir/vpu.c.o CMakeFiles/rockchip_vpu_static.dir/vpu_api.cpp.o CMakeFiles/rockchip_vpu_static.dir/vpu_api_legacy.cpp.o CMakeFiles/rockchip_vpu_static.dir/vpu_mem_legacy.c.o CMakeFiles/rockchip_vpu_static.dir/rk_list.cpp.o CMakeFiles/rockchip_vpu_static.dir/ppOp.cpp.o CMakeFiles/rockchip_vpu_static.dir/__/mpp_info.cpp.o
+/usr/bin/ranlib librockchip_vpu_static.a

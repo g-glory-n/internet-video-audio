@@ -1,0 +1,2 @@
+/usr/bin/ar qc libvproc_iep.a  CMakeFiles/vproc_iep.dir/iep.cpp.o
+/usr/bin/ranlib libvproc_iep.a

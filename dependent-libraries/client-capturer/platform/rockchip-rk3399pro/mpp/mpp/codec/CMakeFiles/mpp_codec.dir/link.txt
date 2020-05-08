@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmpp_codec.a  CMakeFiles/mpp_codec.dir/mpp_enc.cpp.o CMakeFiles/mpp_codec.dir/mpp_controller.cpp.o CMakeFiles/mpp_codec.dir/mpp_dec.cpp.o CMakeFiles/mpp_codec.dir/mpp_parser.cpp.o
+/usr/bin/ranlib libmpp_codec.a

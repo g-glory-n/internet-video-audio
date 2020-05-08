@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhal_h264d.a  CMakeFiles/hal_h264d.dir/hal_h264d_api.c.o CMakeFiles/hal_h264d.dir/hal_h264d_rkv_reg.c.o CMakeFiles/hal_h264d.dir/hal_h264d_vdpu2.c.o CMakeFiles/hal_h264d.dir/hal_h264d_vdpu1.c.o CMakeFiles/hal_h264d.dir/hal_h264d_common.c.o
+/usr/bin/ranlib libhal_h264d.a

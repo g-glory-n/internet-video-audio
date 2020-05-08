@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhal_h264e.a  CMakeFiles/hal_h264e.dir/h264e_stream.c.o CMakeFiles/hal_h264e.dir/hal_h264e_com.c.o CMakeFiles/hal_h264e.dir/hal_h264e_api.c.o
+/usr/bin/ranlib libhal_h264e.a

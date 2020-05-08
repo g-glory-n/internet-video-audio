@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcodec_mpeg4d.a  CMakeFiles/codec_mpeg4d.dir/mpg4d_api.c.o CMakeFiles/codec_mpeg4d.dir/mpg4d_parser.c.o
+/usr/bin/ranlib libcodec_mpeg4d.a

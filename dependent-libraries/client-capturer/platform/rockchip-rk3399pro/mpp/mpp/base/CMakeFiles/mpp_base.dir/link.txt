@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmpp_base.a  CMakeFiles/mpp_base.dir/mpp_buf_slot.cpp.o CMakeFiles/mpp_base.dir/mpp_buffer_impl.cpp.o CMakeFiles/mpp_base.dir/mpp_buffer.cpp.o CMakeFiles/mpp_base.dir/mpp_packet.cpp.o CMakeFiles/mpp_base.dir/mpp_frame.cpp.o CMakeFiles/mpp_base.dir/mpp_task_impl.cpp.o CMakeFiles/mpp_base.dir/mpp_task.cpp.o CMakeFiles/mpp_base.dir/mpp_meta.cpp.o CMakeFiles/mpp_base.dir/mpp_bitread.c.o CMakeFiles/mpp_base.dir/mpp_bitput.c.o
+/usr/bin/ranlib libmpp_base.a

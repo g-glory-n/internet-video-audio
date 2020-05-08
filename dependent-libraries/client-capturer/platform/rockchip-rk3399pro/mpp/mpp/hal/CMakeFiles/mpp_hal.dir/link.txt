@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmpp_hal.a  CMakeFiles/mpp_hal.dir/hal_task.cpp.o CMakeFiles/mpp_hal.dir/mpp_hal.cpp.o
+/usr/bin/ranlib libmpp_hal.a

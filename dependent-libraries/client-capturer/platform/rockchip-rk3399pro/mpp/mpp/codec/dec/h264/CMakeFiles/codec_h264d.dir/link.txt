@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcodec_h264d.a  CMakeFiles/codec_h264d.dir/h264d_api.c.o CMakeFiles/codec_h264d.dir/h264d_parse.c.o CMakeFiles/codec_h264d.dir/h264d_slice.c.o CMakeFiles/codec_h264d.dir/h264d_sps.c.o CMakeFiles/codec_h264d.dir/h264d_pps.c.o CMakeFiles/codec_h264d.dir/h264d_scalist.c.o CMakeFiles/codec_h264d.dir/h264d_sei.c.o CMakeFiles/codec_h264d.dir/h264d_dpb.c.o CMakeFiles/codec_h264d.dir/h264d_init.c.o CMakeFiles/codec_h264d.dir/h264d_fill.c.o
+/usr/bin/ranlib libcodec_h264d.a

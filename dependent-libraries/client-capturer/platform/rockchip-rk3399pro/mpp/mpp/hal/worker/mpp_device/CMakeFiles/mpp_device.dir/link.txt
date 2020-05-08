@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmpp_device.a  CMakeFiles/mpp_device.dir/mpp_device.c.o
+/usr/bin/ranlib libmpp_device.a

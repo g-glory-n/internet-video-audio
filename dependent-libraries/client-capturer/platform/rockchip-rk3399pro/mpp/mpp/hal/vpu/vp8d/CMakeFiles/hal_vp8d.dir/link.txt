@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhal_vp8d.a  CMakeFiles/hal_vp8d.dir/hal_vp8d_api.c.o CMakeFiles/hal_vp8d.dir/hal_vp8d_vdpu2.c.o CMakeFiles/hal_vp8d.dir/hal_vp8d_vdpu1.c.o
+/usr/bin/ranlib libhal_vp8d.a

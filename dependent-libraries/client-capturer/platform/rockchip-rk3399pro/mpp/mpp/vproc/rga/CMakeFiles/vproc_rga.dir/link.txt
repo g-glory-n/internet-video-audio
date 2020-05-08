@@ -1,0 +1,2 @@
+/usr/bin/ar qc libvproc_rga.a  CMakeFiles/vproc_rga.dir/rga.cpp.o
+/usr/bin/ranlib libvproc_rga.a

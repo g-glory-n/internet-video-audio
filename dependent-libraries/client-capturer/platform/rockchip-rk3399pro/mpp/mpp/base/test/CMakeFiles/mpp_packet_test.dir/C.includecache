@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/Documents/my-program/internet-video-audio/libraries/client-capturer/platform/rockchip-rk3399pro/mpp/mpp/base/test/mpp_packet_test.c
+stdlib.h
+-
+mpp_log.h
+/root/Documents/my-program/internet-video-audio/libraries/client-capturer/platform/rockchip-rk3399pro/mpp/mpp/base/test/mpp_log.h
+mpp_packet.h
+/root/Documents/my-program/internet-video-audio/libraries/client-capturer/platform/rockchip-rk3399pro/mpp/mpp/base/test/mpp_packet.h
+
+inc/mpp_buffer.h
+rk_type.h
+inc/rk_type.h
+mpp_err.h
+inc/mpp_err.h
+
+inc/mpp_err.h
+
+inc/mpp_packet.h
+mpp_buffer.h
+inc/mpp_buffer.h
+
+inc/rk_type.h
+stddef.h
+-
+
+osal/inc/mpp_log.h
+rk_type.h
+osal/inc/rk_type.h
+stdio.h
+-
+stdlib.h
+-
+

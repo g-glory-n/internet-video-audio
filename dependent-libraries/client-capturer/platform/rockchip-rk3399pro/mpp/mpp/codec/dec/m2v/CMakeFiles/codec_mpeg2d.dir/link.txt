@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcodec_mpeg2d.a  CMakeFiles/codec_mpeg2d.dir/m2vd_api.c.o CMakeFiles/codec_mpeg2d.dir/m2vd_parser.c.o
+/usr/bin/ranlib libcodec_mpeg2d.a

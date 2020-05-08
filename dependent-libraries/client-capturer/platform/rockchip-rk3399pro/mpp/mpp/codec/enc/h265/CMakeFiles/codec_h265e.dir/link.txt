@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcodec_h265e.a  CMakeFiles/codec_h265e.dir/h265e_api.c.o
+/usr/bin/ranlib libcodec_h265e.a

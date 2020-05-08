@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcodec_h265d.a  CMakeFiles/codec_h265d.dir/h265d_parser.c.o CMakeFiles/codec_h265d.dir/h265d_ps.c.o CMakeFiles/codec_h265d.dir/h265d_refs.c.o CMakeFiles/codec_h265d.dir/h265d_sei.c.o CMakeFiles/codec_h265d.dir/h265d_parser2_syntax.c.o
+/usr/bin/ranlib libcodec_h265d.a

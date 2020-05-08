@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhal_mpeg4d.a  CMakeFiles/hal_mpeg4d.dir/hal_m4vd_com.c.o CMakeFiles/hal_mpeg4d.dir/hal_m4vd_api.c.o CMakeFiles/hal_mpeg4d.dir/hal_m4vd_vdpu1.c.o CMakeFiles/hal_mpeg4d.dir/hal_m4vd_vdpu2.c.o
+/usr/bin/ranlib libhal_mpeg4d.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcodec_jpegd.a  CMakeFiles/codec_jpegd.dir/jpegd_parser.c.o
+/usr/bin/ranlib libcodec_jpegd.a

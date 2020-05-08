@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# 
+# this script can configure the invironment of client-capturer server-transfer client-accepter
+
+# the client-capturer need the invironment that is SDL2 mjpeg x264 x265 ffmpeg 
+# (1) configure the invironment of SDL2 -> libsdl2*
+# (2) configure the invironment of x264 -> liblibx264*
+# (3) configure the invironment of x265 -> liblibx265*
+# (4) configure the invironment of mjpeg -> libmjpeg*
+# (5) configure the invironment of ffmpeg -> lib*
+# ...
+
+# the server-transfer need the invironment that is SDL2 ffmpeg
+
+# the client-accepter need the invironment that is SDL2 ffmpeg
+
+
+
+
+
+
+
+

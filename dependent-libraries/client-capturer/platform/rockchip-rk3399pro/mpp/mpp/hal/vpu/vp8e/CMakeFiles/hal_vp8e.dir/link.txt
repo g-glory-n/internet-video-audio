@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhal_vp8e.a  CMakeFiles/hal_vp8e.dir/hal_vp8e_api.c.o CMakeFiles/hal_vp8e.dir/hal_vp8e_putbit.c.o CMakeFiles/hal_vp8e.dir/hal_vp8e_table.c.o CMakeFiles/hal_vp8e.dir/hal_vp8e_entropy.c.o CMakeFiles/hal_vp8e.dir/hal_vp8e_base.c.o CMakeFiles/hal_vp8e.dir/hal_vp8e_vepu1.c.o CMakeFiles/hal_vp8e.dir/hal_vp8e_vepu2.c.o
+/usr/bin/ranlib libhal_vp8e.a

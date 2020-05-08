@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/Documents/my-program/internet-video-audio/libraries/client-capturer/platform/rockchip-rk3399pro/mpp/osal/test/mpp_time_test.c
+mpp_log.h
+/root/Documents/my-program/internet-video-audio/libraries/client-capturer/platform/rockchip-rk3399pro/mpp/osal/test/mpp_log.h
+mpp_time.h
+/root/Documents/my-program/internet-video-audio/libraries/client-capturer/platform/rockchip-rk3399pro/mpp/osal/test/mpp_time.h
+
+inc/rk_type.h
+stddef.h
+-
+
+osal/inc/mpp_log.h
+rk_type.h
+osal/inc/rk_type.h
+stdio.h
+-
+stdlib.h
+-
+
+osal/inc/mpp_time.h
+rk_type.h
+osal/inc/rk_type.h
+windows.h
+-
+unistd.h
+-
+

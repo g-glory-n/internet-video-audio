@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhal_h264e_vpu.a  CMakeFiles/hal_h264e_vpu.dir/hal_h264e_vepu2.c.o CMakeFiles/hal_h264e_vpu.dir/hal_h264e_vepu1.c.o CMakeFiles/hal_h264e_vpu.dir/hal_h264e_header.c.o CMakeFiles/hal_h264e_vpu.dir/hal_h264e_rc.c.o
+/usr/bin/ranlib libhal_h264e_vpu.a

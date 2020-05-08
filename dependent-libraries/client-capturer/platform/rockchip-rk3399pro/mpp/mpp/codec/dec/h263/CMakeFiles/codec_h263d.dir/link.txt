@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcodec_h263d.a  CMakeFiles/codec_h263d.dir/h263d_api.c.o CMakeFiles/codec_h263d.dir/h263d_parser.c.o
+/usr/bin/ranlib libcodec_h263d.a

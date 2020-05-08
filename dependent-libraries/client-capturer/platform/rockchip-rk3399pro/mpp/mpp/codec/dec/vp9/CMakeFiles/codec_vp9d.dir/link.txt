@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcodec_vp9d.a  CMakeFiles/codec_vp9d.dir/vp9d_api.c.o CMakeFiles/codec_vp9d.dir/vp9d_parser.c.o CMakeFiles/codec_vp9d.dir/vpx_rac.c.o CMakeFiles/codec_vp9d.dir/vp9d_parser2_syntax.c.o
+/usr/bin/ranlib libcodec_vp9d.a
