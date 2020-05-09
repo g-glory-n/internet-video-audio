@@ -1,10 +1,4 @@
-# ============================================================================================ #
-					README.md
-# ============================================================================================ #
-
-the       of designing the software
-For solving the question that the          of robot communication
-
+# client-accepter
 
 
 
