@@ -1,0 +1,8 @@
+#/bin/bash -e
+
+sudo apt install libx264-dev
+sudo apt install libx265-dev
+
+sudo apt install libavcodec-dev
+sudo apt install libavformat-dev
+
